@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marido de Aluguel | Leonardo Balan - Baixada Santista</title>
+    <title>Marido de Aluguel em Santos e São Vicente – Leonardo Balan</title>
+    <meta name="description" content="Serviços de marido de aluguel em Santos e São Vicente: elétrica, hidráulica, montagem, pintura e reparos. Atendimento rápido e preço justo na Baixada Santista.">
+    <meta name="keywords" content="marido de aluguel Santos, marido de aluguel São Vicente, serviços elétricos Santos, hidráulica São Vicente, montagem de móveis Santos, reparos residenciais Baixada Santista, pedreiro Santos, manutenção residencial São Vicente">
     <style>
         * {
             margin: 0;
@@ -135,15 +137,15 @@
             width: 100%;
         }
 
-        /* Container do bonequinho - MAIS DESTACADO */
+        /* Container do bonequinho - IMAGEM REAL */
         .mascot-container {
             position: absolute;
             left: 50%;
             top: 40%;
             transform: translate(-50%, -50%);
             z-index: 5;
-            width: 500px;
-            height: 500px;
+            width: 400px;
+            height: 400px;
             animation: float 6s ease-in-out infinite;
         }
 
@@ -152,10 +154,11 @@
             50% { transform: translate(-50%, -50%) translateY(-20px); }
         }
 
-        /* Bonequinho CSS/SVG - MAIS VIVO */
+        /* Imagem do bonequinho */
         .handyman-mascot {
             width: 100%;
             height: 100%;
+            object-fit: contain;
             filter: drop-shadow(0 20px 40px rgba(0,0,0,0.4));
         }
 
@@ -575,8 +578,8 @@
             }
 
             .mascot-container {
-                width: 350px;
-                height: 350px;
+                width: 300px;
+                height: 300px;
                 top: 35%;
             }
 
@@ -609,6 +612,38 @@
             }
         }
     </style>
+    <!-- Schema.org LocalBusiness markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Marido de Aluguel - Leonardo Balan",
+        "description": "Serviços de marido de aluguel em Santos e São Vicente: elétrica, hidráulica, montagem, pintura e reparos.",
+        "areaServed": [
+            {
+                "@type": "City",
+                "name": "Santos",
+                "containedInPlace": {
+                    "@type": "State",
+                    "name": "São Paulo"
+                }
+            },
+            {
+                "@type": "City",
+                "name": "São Vicente",
+                "containedInPlace": {
+                    "@type": "State",
+                    "name": "São Paulo"
+                }
+            }
+        ],
+        "serviceType": ["Elétrica", "Hidráulica", "Montagem", "Pintura", "Reparos"],
+        "priceRange": "$$",
+        "url": "https://balanleonardo-afk.github.io/Marido/",
+        "telephone": "+5513978238080"
+    }
+    </script>
+<base target="_blank">
 </head>
 <body>
 
@@ -632,123 +667,20 @@
         </div>
     </header>
 
-    <!-- Hero Section com Bonequinho Destacado -->
+    <!-- Hero Section com Nova Imagem -->
     <section class="hero">
-        <!-- Bonequinho no fundo - AGORA MAIS DESTACADO -->
+        <!-- NOVA IMAGEM DO BONECO -->
         <div class="mascot-container">
-            <svg class="handyman-mascot" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
-                <!-- Círculo de fundo mais vibrante -->
-                <circle cx="200" cy="200" r="190" fill="#3498db" opacity="0.6"/>
-                <circle cx="200" cy="200" r="170" fill="#5dade2" opacity="0.4"/>
-                
-                <!-- Capacete amarelo brilhante -->
-                <path d="M140 110 Q140 70 200 70 Q260 70 260 110 L260 135 L140 135 Z" fill="#f1c40f" stroke="#f39c12" stroke-width="4"/>
-                <rect x="140" y="125" width="120" height="18" fill="#f39c12"/>
-                <ellipse cx="200" cy="75" rx="55" ry="15" fill="#f39c12" opacity="0.3"/>
-                
-                <!-- Cabeça -->
-                <ellipse cx="200" cy="165" rx="65" ry="75" fill="#fdbf60"/>
-                <ellipse cx="200" cy="175" rx="55" ry="60" fill="#fdcb7e" opacity="0.5"/>
-                
-                <!-- Cabelo -->
-                <path d="M140 130 Q160 105 200 110 Q240 105 260 130" fill="none" stroke="#5d4037" stroke-width="4"/>
-                <path d="M145 125 L150 115 M155 122 L160 112 M240 122 L245 112" stroke="#5d4037" stroke-width="3"/>
-                
-                <!-- Olhos maiores e expressivos -->
-                <ellipse cx="170" cy="160" rx="12" ry="14" fill="#333"/>
-                <ellipse cx="230" cy="160" rx="12" ry="14" fill="#333"/>
-                <circle cx="173" cy="157" r="5" fill="white"/>
-                <circle cx="233" cy="157" r="5" fill="white"/>
-                <circle cx="175" cy="162" r="2" fill="#333"/>
-                <circle cx="235" cy="162" r="2" fill="#333"/>
-                
-                <!-- Sobrancelhas -->
-                <path d="M155 140 Q170 135 185 140" fill="none" stroke="#5d4037" stroke-width="3" stroke-linecap="round"/>
-                <path d="M215 140 Q230 135 245 140" fill="none" stroke="#5d4038" stroke-width="3" stroke-linecap="round"/>
-                
-                <!-- Sorriso maior -->
-                <path d="M175 195 Q200 215 225 195" fill="none" stroke="#333" stroke-width="4" stroke-linecap="round"/>
-                <path d="M180 200 Q200 210 220 200" fill="none" stroke="#e74c3c" stroke-width="2" opacity="0.3"/>
-                
-                <!-- Orelhas -->
-                <ellipse cx="135" cy="165" rx="12" ry="18" fill="#fdbf60"/>
-                <ellipse cx="265" cy="165" rx="12" ry="18" fill="#fdbf60"/>
-                
-                <!-- Pescoço -->
-                <rect x="180" y="225" width="40" height="35" fill="#fdbf60"/>
-                
-                <!-- Corpo/Camiseta azul -->
-                <path d="M120 260 L120 390 L280 390 L280 260 Q280 235 255 235 L145 235 Q120 235 120 260" fill="#2980b9"/>
-                
-                <!-- Gola -->
-                <path d="M165 235 Q200 255 235 235" fill="none" stroke="#1a5276" stroke-width="4"/>
-                
-                <!-- Macacão/Jardineira -->
-                <path d="M140 235 L140 390 L165 390 L165 285 Q165 275 175 275 L225 275 Q235 275 235 285 L235 390 L260 390 L260 235" fill="#1a5276"/>
-                
-                <!-- Bolso do macacão -->
-                <rect x="175" y="310" width="50" height="40" rx="8" fill="#154360"/>
-                <rect x="185" y="320" width="30" height="3" fill="#2980b9"/>
-                <rect x="185" y="330" width="30" height="3" fill="#2980b9"/>
-                
-                <!-- Cinto marrom -->
-                <rect x="135" y="330" width="130" height="18" fill="#8b4513"/>
-                <rect x="192" y="330" width="16" height="18" fill="#d4af37"/>
-                <circle cx="200" cy="339" r="5" fill="#f39c12"/>
-                
-                <!-- Luva esquerda (com furadeira) -->
-                <ellipse cx="100" cy="310" rx="30" ry="35" fill="#8b4513"/>
-                <path d="M85 290 Q100 285 115 290" fill="none" stroke="#5d4037" stroke-width="2"/>
-                
-                <!-- Furadeira detalhada -->
-                <g transform="translate(45, 250) rotate(-25)">
-                    <!-- Corpo da furadeira -->
-                    <rect x="0" y="25" width="85" height="45" rx="8" fill="#2c3e50"/>
-                    <rect x="10" y="30" width="65" height="35" rx="5" fill="#34495e"/>
-                    <!-- Cabo -->
-                    <rect x="85" y="32" width="45" height="20" fill="#2c3e50"/>
-                    <rect x="90" y="35" width="35" height="14" fill="#1a252f"/>
-                    <!-- Broca -->
-                    <rect x="130" y="38" width="35" height="8" fill="#95a5a6"/>
-                    <path d="M165 38 L175 42 L165 46 Z" fill="#7f8c8d"/>
-                    <!-- Detalhes -->
-                    <rect x="20" y="5" width="25" height="20" rx="3" fill="#2c3e50"/>
-                    <rect x="22" y="-12" width="21" height="17" fill="#95a5a6"/>
-                    <rect x="24" y="-10" width="17" height="13" fill="#7f8c8d"/>
-                    <!-- Botão -->
-                    <circle cx="70" cy="47" r="8" fill="#e74c3c"/>
-                </g>
-                
-                <!-- Luva direita (joinha) -->
-                <ellipse cx="300" cy="290" rx="30" ry="35" fill="#8b4513"/>
-                
-                <!-- Polegar para cima -->
-                <ellipse cx="325" cy="255" rx="15" ry="25" fill="#8b4513"/>
-                <ellipse cx="325" cy="230" rx="12" ry="18" fill="#fdbf60"/>
-                <path d="M318 220 Q325 215 332 220" fill="none" stroke="#fdbf60" stroke-width="2"/>
-                
-                <!-- Ferramentas no cinto -->
-                <rect x="155" y="345" width="10" height="45" fill="#95a5a6" rx="2"/>
-                <circle cx="160" cy="390" r="8" fill="#7f8c8d"/>
-                <rect x="157" y="385" width="6" height="10" fill="#95a5a6"/>
-                
-                <!-- Chave inglesa -->
-                <path d="M245 350 L245 385 M238 357 L252 357 M238 378 L252 378" stroke="#95a5a6" stroke-width="8" stroke-linecap="round"/>
-                <circle cx="245" cy="350" r="6" fill="#7f8c8d"/>
-                
-                <!-- Brilho no capacete -->
-                <ellipse cx="170" cy="95" rx="20" ry="10" fill="white" opacity="0.4"/>
-                <ellipse cx="230" cy="100" rx="15" ry="8" fill="white" opacity="0.3"/>
-            </svg>
+            <img src="caricatura_leonardo.png" alt="Leonardo Balan - Marido de Aluguel em Santos e São Vicente" class="handyman-mascot">
         </div>
 
         <div class="container hero-content">
             <h1>MARIDO DE <span>ALUGUEL</span></h1>
-            <p>Soluções rápidas e eficientes para sua casa na Baixada Santista. Pequenos reparos, instalações e manutenções com qualidade e preço justo.</p>
+            <p>Soluções rápidas e eficientes para sua casa em Santos e São Vicente. Pequenos reparos, instalações e manutenções com qualidade e preço justo.</p>
             <a href="https://wa.me/5513978238080?text=Olá%20Leonardo!%20Vi%20seu%20site%20e%20gostaria%20de%20solicitar%20um%20orçamento%20sem%20compromisso." class="btn-primary" target="_blank">
                 Solicitar Orçamento Grátis
             </a>
-            <div class="badge">✓ Atendimento em toda Baixada Santista</div>
+            <div class="badge">✓ Atendimento exclusivo em Santos e São Vicente</div>
         </div>
     </section>
 
@@ -760,7 +692,7 @@
                 <div class="service-card">
                     <div class="service-icon">🔌</div>
                     <h3>Serviços Elétricos</h3>
-                    <p>Troca de tomadas, instalação de lustres, reparos em quadros de luz, troca de lâmpadas e interruptores.</p>
+                    <p>Troca de tomadas, instalação de lustres, reparos em quadros de luz, troca de lâmpadas e interruptores em Santos e São Vicente.</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">🚿</div>
@@ -797,13 +729,13 @@
             <div class="about-content">
                 <div class="about-text">
                     <h2>Quem é <span>Leonardo Balan</span>?</h2>
-                    <p>Profissional experiente em manutenções residenciais, oferecendo serviços de qualidade com honestidade e pontualidade. Entendo que sua casa é seu espaço sagrado, por isso trabalho com respeito, limpeza e eficiência.</p>
-                    <p>Atendo toda a região da Baixada Santista, oferecendo soluções práticas para o dia a dia, desde pequenos reparos até instalações mais complexas.</p>
-                    
+                    <p>Profissional experiente em manutenções residenciais em Santos e São Vicente, oferecendo serviços de qualidade com honestidade e pontualidade. Entendo que sua casa é seu espaço sagrado, por isso trabalho com respeito, limpeza e eficiência.</p>
+                    <p>Atendo exclusivamente em <strong>Santos</strong> e <strong>São Vicente</strong>, oferecendo soluções práticas para o dia a dia, desde pequenos reparos até instalações mais complexas.</p>
+
                     <div class="highlight-box">
                         <h3>🎯 Diferenciais</h3>
                         <p>✓ Orçamento sem compromisso<br>
-                        ✓ Visita técnica para avaliação detalhada<br>
+                        ✓ Visita técnica gratuita em Santos e São Vicente<br>
                         ✓ Preço justo e transparente<br>
                         ✓ Execução limpa e organizada<br>
                         ✓ Garantia nos serviços realizados</p>
@@ -822,8 +754,8 @@
     <section class="quote-section" id="orcamento">
         <div class="container">
             <h2>Orçamento <span style="color: var(--primary);">Sem Compromisso</span></h2>
-            <p>Faça seu orçamento agora mesmo pelo WhatsApp! Descreva o que precisa e receba uma estimativa rápida. Para serviços mais complexos, faço visita técnica gratuita na Baixada Santista para avaliar detalhadamente.</p>
-            
+            <p>Faça seu orçamento agora mesmo pelo WhatsApp! Descreva o que precisa e receba uma estimativa rápida. Para serviços mais complexos, faço visita técnica gratuita em Santos e São Vicente.</p>
+
             <a href="https://wa.me/5513978238080?text=Olá%20Leonardo!%20Gostaria%20de%20um%20orçamento.%20Meu%20problema%20é:%20[descreva%20aqui]" class="btn-whatsapp-large" target="_blank">
                 📱 Chamar no WhatsApp
             </a>
@@ -845,25 +777,19 @@
         </div>
     </section>
 
-    <!-- Coverage Area -->
+    <!-- Coverage Area - APENAS SANTOS E SÃO VICENTE -->
     <section class="coverage">
         <div class="container">
-            <h2>Atendimento em toda <span>Baixada Santista</span></h2>
-            <p>Santos, São Vicente, Praia Grande, Guarujá, Cubatão, Bertioga e região do Litoral Sul de São Paulo</p>
-            
+            <h2>Atendimento em <span>Santos e São Vicente</span></h2>
+            <p>Atendimento exclusivo e especializado na Baixada Santista</p>
+
             <div class="coverage-map">
                 <h3 style="color: var(--secondary); margin-bottom: 1rem;">🌊 Região de Atendimento</h3>
-                <p style="color: #555;">Atendo em toda a região da Baixada Santista e Litoral de São Paulo, levando soluções rápidas até você!</p>
-                
+                <p style="color: #555;">Foco total em Santos e São Vicente para atendimento rápido e eficiente!</p>
+
                 <div class="location-list">
-                    <span class="location-tag">Santos</span>
-                    <span class="location-tag">São Vicente</span>
-                    <span class="location-tag">Praia Grande</span>
-                    <span class="location-tag">Guarujá</span>
-                    <span class="location-tag">Cubatão</span>
-                    <span class="location-tag">Bertioga</span>
-                    <span class="location-tag">Itanhaém</span>
-                    <span class="location-tag">Peruíbe</span>
+                    <span class="location-tag">🏖️ Santos</span>
+                    <span class="location-tag">🌊 São Vicente</span>
                 </div>
             </div>
         </div>
@@ -874,21 +800,21 @@
         <div class="container">
             <div class="contact-content">
                 <h2 class="section-title" style="margin-bottom: 3rem;">Entre em <span>Contato</span></h2>
-                
+
                 <div class="contact-grid">
                     <!-- Card de Contato -->
                     <div class="contact-card">
                         <h2>📞 Fale Comigo</h2>
-                        <p>Está com algum problema em casa? Não deixe para depois! Entre em contato agora mesmo.</p>
-                        
+                        <p>Está com algum problema em casa em Santos ou São Vicente? Não deixe para depois! Entre em contato agora mesmo.</p>
+
                         <span class="phone-display">(13) 97823-8080</span>
-                        
+
                         <p style="margin: 1.5rem 0; color: #666; font-size: 1.1rem;">
                             <strong>Leonardo Balan</strong><br>
                             Marido de Aluguel<br>
-                            Baixada Santista - Litoral SP
+                            Santos e São Vicente - Litoral SP
                         </p>
-                        
+
                         <a href="https://wa.me/5513978238080?text=Olá%20Leonardo!%20Preciso%20de%20ajuda%20com:%20[descreva%20seu%20problema]" class="btn-whatsapp-large" target="_blank" style="margin-top: 1rem;">
                             📱 Falar no WhatsApp
                         </a>
@@ -900,7 +826,7 @@
                         <div class="qr-code-container">
                             <!-- QR Code gerado via API do QRServer -->
                             <img src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=https://wa.me/5513978238080?text=Olá%20Leonardo!%20Gostaria%20de%20um%20orçamento." 
-                                 alt="QR Code WhatsApp Leonardo Balan" 
+                                 alt="QR Code WhatsApp Leonardo Balan - Marido de Aluguel Santos e São Vicente" 
                                  class="qr-code">
                         </div>
                         <p class="qr-instruction">
@@ -919,7 +845,7 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2025 Leonardo Balan - Marido de Aluguel. Todos os direitos reservados.</p>
+            <p>&copy; 2025 Leonardo Balan - Marido de Aluguel em Santos e São Vicente. Todos os direitos reservados.</p>
             <p style="margin-top: 0.5rem; font-size: 0.9rem; opacity: 0.8;">Baixada Santista - Litoral de São Paulo</p>
         </div>
     </footer>
